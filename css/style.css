@@ -164,7 +164,7 @@ header {
 }
 #navbar nav {
   border-left: 1px solid #ccc;
-  
+
 }
 #navbar nav a {
   display: inline-block; /* can't set a width to default inline, 1/6 derived from 6 links across full width */
@@ -176,6 +176,11 @@ header {
   text-align: center;
   border-right: 1px solid #ccc;
   text-decoration: none; /* no underline for links */
+  font: 1em "Trebuchet MS", Arial, sans-serif;
+}
+#navbar nav a.selected {
+  background: #333;
+  color: white;
 }
 /*////////// LOGO //////////*/
 
