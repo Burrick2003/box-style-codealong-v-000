@@ -162,7 +162,21 @@ header {
   border-bottom: 1px solid #ccc;
   text-align: center;
 }
-
+#navbar nav {
+  border-left: 1px solid #ccc;
+  
+}
+#navbar nav a {
+  display: inline-block; /* can't set a width to default inline, 1/6 derived from 6 links across full width */
+  width: 16.6666667%;
+  margin: 0; /*make sure they don't wrap */
+  padding: 22px 0;
+  text-transform: uppercase;
+  color: black; /*override default blue for links */
+  text-align: center;
+  border-right: 1px solid #ccc;
+  text-decoration: none; /* no underline for links */
+}
 /*////////// LOGO //////////*/
 
 
